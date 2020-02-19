@@ -15,6 +15,8 @@
 		757BF51323F8247E0002E645 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 757BF51123F8247E0002E645 /* LaunchScreen.storyboard */; };
 		757BF51E23F8247E0002E645 /* Simple_3_TodoListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757BF51D23F8247E0002E645 /* Simple_3_TodoListTests.swift */; };
 		757BF52923F8247E0002E645 /* Simple_3_TodoListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757BF52823F8247E0002E645 /* Simple_3_TodoListUITests.swift */; };
+		757BF53823FD7AC80002E645 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757BF53623FD7AC80002E645 /* CustomCell.swift */; };
+		757BF53923FD7AC80002E645 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 757BF53723FD7AC80002E645 /* CustomCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		757BF52423F8247E0002E645 /* Simple_3_TodoListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Simple_3_TodoListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		757BF52823F8247E0002E645 /* Simple_3_TodoListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simple_3_TodoListUITests.swift; sourceTree = "<group>"; };
 		757BF52A23F8247E0002E645 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		757BF53623FD7AC80002E645 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		757BF53723FD7AC80002E645 /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				757BF50F23F8247E0002E645 /* Assets.xcassets */,
 				757BF51123F8247E0002E645 /* LaunchScreen.storyboard */,
 				757BF51423F8247E0002E645 /* Info.plist */,
+				757BF53623FD7AC80002E645 /* CustomCell.swift */,
+				757BF53723FD7AC80002E645 /* CustomCell.xib */,
 			);
 			path = Simple_3_TodoList;
 			sourceTree = "<group>";
@@ -234,6 +240,7 @@
 			files = (
 				757BF51323F8247E0002E645 /* LaunchScreen.storyboard in Resources */,
 				757BF51023F8247E0002E645 /* Assets.xcassets in Resources */,
+				757BF53923FD7AC80002E645 /* CustomCell.xib in Resources */,
 				757BF50E23F8247D0002E645 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +268,7 @@
 			files = (
 				757BF50B23F8247D0002E645 /* ViewController.swift in Sources */,
 				757BF50723F8247D0002E645 /* AppDelegate.swift in Sources */,
+				757BF53823FD7AC80002E645 /* CustomCell.swift in Sources */,
 				757BF50923F8247D0002E645 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
