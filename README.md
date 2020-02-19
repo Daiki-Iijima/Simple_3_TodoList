@@ -10,7 +10,7 @@
 
 画像は紐付けた結果
 
-![s](/Users/daikiiijima/Desktop/TableViewリンク.png)
+![](https://github.com/Daiki-Iijima/Simple_3_TodoList/blob/master/README%E7%94%BB%E5%83%8F/TableView%E3%83%AA%E3%83%B3%E3%82%AF.png)
 
 3. 「Table View Cell」の「Identifier」を設定(あとでコードから参照する名前)
 
@@ -105,10 +105,10 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
 
 1. ファイルを生成
     - 「New File...」で「Cocoa Touch Class」を選択
-
+    ![](https://github.com/Daiki-Iijima/Simple_3_TodoList/blob/master/README%E7%94%BB%E5%83%8F/File%E9%81%B8%E6%8A%9E.png)
     - 「Subclass of:」は適当に
     - 「Also create XIB file」のチェックを入れる
-
+![](https://github.com/Daiki-Iijima/Simple_3_TodoList/blob/master/README%E7%94%BB%E5%83%8F/File%E4%BD%9C%E6%88%90.png)
     - 「.swift」「.xib」が生成される
 2. セルとコードを記述
     - 「.xib」ファイルにストーリボードと同じようにUIパーツを載せて、コードとの連携も同じようにする
